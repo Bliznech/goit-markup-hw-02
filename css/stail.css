@@ -1,0 +1,60 @@
+ul {list-style: none;}
+/* Heder logo */
+.heder-studio{width: 71px;
+    height: 24px;
+   font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+ display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2E2F42;}
+.heder-web{width: 44px;
+    height: 24px;
+   font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+color: #4D5AE5;
+flex: none;
+    order: 0;
+    flex-grow: 0;}
+    /* Heder links */
+.links-heder{color: #2E2F42;}
+.links-heder:hover{color: blue;}
+.links-heder:focus{color: blue;}
+/* links info */
+.lnks-info{color: #434455;}
+/* Big-heder */
+.big-heder
+/* sektion1 */
+,h2,h3{color: #2E2F42;}
+/* button */
+.buttonStudio
+  {background-color: #4D5AE5;color: aliceblue;
+border-radius: 4px;padding: 16px 32px;}
+/* Footer */
+.footer-web{font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+  display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+color: #4D5AE5;}
+.footer-studio{font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+     display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #F4F4FD;}
