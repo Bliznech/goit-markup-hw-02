@@ -1,122 +1,140 @@
+:root{--general-text-color:#2e2f42;
+  --logo-text-color:#4d5ae5;
+  --links-hover-color:blue;
+  --footer-textcolor:#e7e9fc;
+  --footer-logo-color:#f4f4fd;
+  --logo-text:Raleway;
+  --all-text:Roboto;
+}
+
 ul {
   list-style: none;
 }
+/* Body */
+.body {
+  font-family: var(--logo-text);
+}
 /* Heder logo */
 .heder-studio {
-  width: 71px;
-  height: 24px;
-  font-family: "Raleway";
+  font-family: var(--logo-text);
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 1.33;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: var(--general-text-color);
+  text-decoration: none;
 }
 .heder-web {
-  width: 44px;
-  height: 24px;
-  font-family: "Raleway";
-  font-style: normal;
+  font-family: var(--logo-text);
   font-weight: 800;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 1.33;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color:var(--logo-text-color);
   flex: none;
-  order: 0;
-  flex-grow: 0;
+  text-decoration: none;
 }
 /* Heder links */
 .links-heder {
-  color: #2e2f42;
+  color: var(--general-text-color);
+  font-family: var(--all-text);
+  text-decoration: none;
 }
 .links-heder:hover {
-  color: blue;
+  color: var(--logo-text-color);
 }
 .links-heder:focus {
-  color: blue;
+  color:var(--logo-text-color);
 }
 /* links info */
-.lnks-info {
-  color: #434455;
+.heder-mail-telefon {
+  color: var(--general-text-color);
+  text-decoration: none;
+  font-family: var(--all-text);
 }
+.heder-mail-telefon:hover{color: var(--logo-text-color);}
 /* Big-heder */
-h2 {
-  font-family: "Roboto";
-  font-style: normal;
+h2 {font-family: var(--all-text);
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--general-text-color);
 }
+h1{color: #4d5ae5;
+font-family: var(--all-text);}
 .banner {
 }
 .big-heder {
 }
 .text {
-  font-family: "Roboto";
-  font-style: normal;
+  font-family: var(--all-text);
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--general-text-color);
 }
 .firsttitle {
-  font-family: "Roboto";
-  font-style: normal;
+  font-family: var(--all-text);
+  font-weight: 400;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color:var(--general-text-color);
 }
 /* sektion1 */
 
 /* button */
 .buttonStudio {
-  background-color: #4d5ae5;
+  background-color: var(--logo-text-color);
   color: aliceblue;
   border-radius: 4px;
   padding: 16px 32px;
 }
 /* Footer */
 .footer-web {
+  font-family: var(--logo-text);
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.16;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--logo-text-color);
+  text-decoration: none;
 }
 .footer-studio {
-  font-weight: 800;
+  font-family: var(--logo-text);
+ font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.16;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #f4f4fd;
+  text-decoration: none;
 }
-.size {
+
+
+.footer-text {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: #e7e9fc;
 }
