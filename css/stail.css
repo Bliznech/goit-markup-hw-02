@@ -11,8 +11,15 @@ ul {
   list-style: none;
 }
 /* Body */
-.body {
-  font-family: var(--logo-text);
+.body{
+  font-family: var(--all-text);
+  color: var(--general-text-color);
+  background-color: #ffffff;
+  height: 2590px;
+    width: 1440px;
+    left: 370px;
+    top: -1169px;
+    border-radius: 0px;
 }
 /* Heder logo */
 .heder-studio {
@@ -42,10 +49,13 @@ ul {
   text-decoration: none;
 }
 /* Heder links */
-.links-heder {
-  color: var(--general-text-color);
-  font-family: var(--all-text);
+.links-heder {font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+ letter-spacing: 0.02em;
+ color: var(--general-text-color);
   text-decoration: none;
+
 }
 .links-heder:hover {
   color: var(--logo-text-color);
@@ -57,11 +67,10 @@ ul {
 .heder-mail-telefon {
   color: var(--general-text-color);
   text-decoration: none;
-  font-family: var(--all-text);
-}
+  }
 .heder-mail-telefon:hover{color: var(--logo-text-color);}
 /* Big-heder */
-h2 {font-family: var(--all-text);
+h2 {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -76,17 +85,13 @@ font-family: var(--all-text);}
 }
 .big-heder {
 }
-.text {
-  font-family: var(--all-text);
-  font-weight: 400;
+.text { font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--general-text-color);
 }
-.firsttitle {
-  font-family: var(--all-text);
-  font-weight: 400;
+.firsttitle {font-weight: 400;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -96,12 +101,13 @@ font-family: var(--all-text);}
 /* sektion1 */
 
 /* button */
-.buttonStudio {
-  background-color: var(--logo-text-color);
+.buttonStudio { background-color: var(--logo-text-color);
   color: aliceblue;
   border-radius: 4px;
   padding: 16px 32px;
+  cursor: pointer;
 }
+.button-portfolio{cursor: pointer;}
 /* Footer */
 .footer-web {
   font-family: var(--logo-text);
@@ -124,17 +130,24 @@ font-family: var(--all-text);}
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color: #F4F4FD;
   text-decoration: none;
 }
 
 
 .footer-text {
-  font-family: "Roboto";
+
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #e7e9fc;
+  color:#E7E9FC;
+}
+footer{background-color: var(--general-text-color);
+  height: 310px;
+    width: 1440px;
+    left: 0px;
+    top: 2280px;
+    border-radius: 0px;
 }
