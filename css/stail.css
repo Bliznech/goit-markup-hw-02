@@ -66,9 +66,14 @@ ul {
 /* links info */
 .heder-mail-telefon {
   color: var(--general-text-color);
+ font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
   text-decoration: none;
   }
-.heder-mail-telefon:hover{color: var(--logo-text-color);}
+
+.heder-mail-telefon:hover,:focus{color: var(--logo-text-color);}
 /* Big-heder */
 h2 {
   font-weight: 700;
@@ -151,3 +156,4 @@ footer{background-color: var(--general-text-color);
     top: 2280px;
     border-radius: 0px;
 }
+
