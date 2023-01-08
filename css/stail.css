@@ -125,8 +125,6 @@ h2 {
   align-items: center;
   letter-spacing: 0.04em;
 }
-
-
 .button-portfolio {
   cursor: pointer;
   background: var(--footer-logo-color);
