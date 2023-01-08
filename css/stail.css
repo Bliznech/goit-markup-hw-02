@@ -126,16 +126,20 @@ h2 {
   letter-spacing: 0.04em;
 }
 
+
 .button-portfolio {
   cursor: pointer;
   background: var(--footer-logo-color);
+  border: 1px solid var(--footer-textcolor);
   font-family: var(--all-text);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  padding: 12px 24px;
   display: flex;
   align-items: center;
   text-align: center;
+  border-radius: 4px;
   letter-spacing: 0.04em;
   color: var(--logo-text-color);
 }
