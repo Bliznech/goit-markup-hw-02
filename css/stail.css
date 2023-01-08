@@ -1,30 +1,27 @@
-:root{--general-text-color:#2e2f42;
-  --logo-text-color:#4d5ae5;
-  --links-hover-color:blue;
-  --footer-textcolor:#e7e9fc;
-  --footer-logo-color:#f4f4fd;
-  --logo-text:Raleway;
-  --all-text:Roboto;
+:root {
+  --general-text-color: #2e2f42;
+  --logo-text-color: #4d5ae5;
+  --links-hover-color: #404BBF;
+  --footer-textcolor: #e7e9fc;
+  --footer-logo-color: #f4f4fd;
+  --logo-text: Raleway;
+  --all-text: Roboto;
+  --background-saits: #ffffff;
 }
 
 ul {
   list-style: none;
 }
 /* Body */
-.body{
+.body {
   font-family: var(--all-text);
   color: var(--general-text-color);
-  background-color: #ffffff;
-  height: 2590px;
-    width: 1440px;
-    left: 370px;
-    top: -1169px;
-    border-radius: 0px;
+  background-color: var(--background-saits);
+  border-radius: 0px;
 }
 /* Heder logo */
 .heder-studio {
   font-family: var(--logo-text);
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
@@ -44,36 +41,37 @@ ul {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color:var(--logo-text-color);
-  flex: none;
+  color: var(--logo-text-color);
   text-decoration: none;
 }
 /* Heder links */
-.links-heder {font-weight: 500;
+.links-heder {
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
- letter-spacing: 0.02em;
- color: var(--general-text-color);
+  letter-spacing: 0.02em;
+  color: var(--general-text-color);
   text-decoration: none;
-
 }
 .links-heder:hover {
   color: var(--logo-text-color);
 }
 .links-heder:focus {
-  color:var(--logo-text-color);
+  color: var(--logo-text-color);
 }
 /* links info */
 .heder-mail-telefon {
   color: var(--general-text-color);
- font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   text-decoration: none;
-  }
+}
 
-.heder-mail-telefon:hover,:focus{color: var(--logo-text-color);}
+.heder-mail-telefon:hover,
+:focus {
+  color: var(--logo-text-color);
+}
 /* Big-heder */
 h2 {
   font-weight: 700;
@@ -84,36 +82,84 @@ h2 {
   text-transform: capitalize;
   color: var(--general-text-color);
 }
-h1{color: #4d5ae5;
-font-family: var(--all-text);}
 .banner {
+  color: var(--logo-text-color);
+  font-family: var(--all-text);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
+
 .big-heder {
 }
-.text { font-weight: 400;
+.text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--general-text-color);
 }
-.firsttitle {font-weight: 400;
+.firsttitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color:var(--general-text-color);
+  color: var(--general-text-color);
 }
-/* sektion1 */
 
-/* button */
-.buttonStudio { background-color: var(--logo-text-color);
-  color: aliceblue;
+/* BUTTON */
+.buttonStudio:hover{background: var(--links-hover-color);}
+.buttonStudio {
+  font-family: var(--all-text);
+  background-color: var(--logo-text-color);
+  color: var(--background-saits);
   border-radius: 4px;
   padding: 16px 32px;
   cursor: pointer;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
 }
-.button-portfolio{cursor: pointer;}
-/* Footer */
+
+.button-portfolio {
+  cursor: pointer;
+  background: var(--footer-logo-color);
+  font-family: var(--all-text);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--logo-text-color);
+}
+.button-portfolio:hover {
+  background: var(--links-hover-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  font-family: var(--all-text);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--background-saits);
+}
+.button-portfolio:focus {
+  background-color: var(--links-hover-color);
+  color: var(--background-saits);
+}
+
+/* FOOTER */
 .footer-web {
   font-family: var(--logo-text);
   font-weight: 800;
@@ -128,32 +174,21 @@ font-family: var(--all-text);}
 }
 .footer-studio {
   font-family: var(--logo-text);
- font-weight: 800;
+  font-weight: 800;
   font-size: 18px;
   line-height: 1.16;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #F4F4FD;
+  color: var(--footer-logo-color);
   text-decoration: none;
 }
 
-
 .footer-text {
-
   font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color:#E7E9FC;
+  color: var(--footer-textcolor);
 }
-footer{background-color: var(--general-text-color);
-  height: 310px;
-    width: 1440px;
-    left: 0px;
-    top: 2280px;
-    border-radius: 0px;
-}
-
